@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Publicação de Livros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    
+  </head>
+  <body>
+    <header>
+      <h1>Publicação de Livros</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <h2>Bem-vindo ao nosso site de publicação de livros</h2>
+        <p>Aqui você pode publicar seu livro e alcançar um público maior.</p>
+      </section>
+      <section class="form">
+        <h3>Publicar livro</h3>
+        <form action="#" method="POST">
+          <label for="titulo">Título:</label>
+          <input type="text" id="titulo" name="titulo">
+          <label for="autor">Autor:</label>
+          <input type="text" id="autor" name="autor">
+          <label for="genero">Gênero:</label>
+          <input type="text" id="genero" name="genero">
+          <label for="descricao">Descrição:</label>
+          <textarea id="descricao" name="descricao"></textarea>
+          <label for="arquivo">Arquivo:</label>
+          <input type="file" id="arquivo" name="arquivo">
+          <input type="submit" value="Publicar">
+        </form>
+      </section>
+      <section class="livros">
+        <h3>Livros publicados</h3>
+        <ul>
+          <li>
+            <h4>Nome do Livro</h4>
+            <p>Autor: Nome do Autor</p>
+            <p>Gênero: Gênero do Livro</p>
+            <p>Descrição: Descrição do Livro</p>
+            <p><a href="#">Baixar</a></p>
+          </li>
+          <li>
+            <h4>Nome do Livro</h4>
+            <p>Autor: Nome do Autor</p>
+            <p>Gênero: Gênero do Livro</p>
+            <p>Descrição: Descrição do Livro</p>
+            <p><a href="#">Baixar</a></p>
+          </li>
+          <li>
+            <h4>Nome do Livro</h4>
+            <p>Autor: Nome do Autor</p>
+            <p>Gênero: Gênero do Livro</p>
+            <p>Descrição: Descrição do Livro</p>
+            <p><a href="#">Baixar</a></p>
+          </li>
+        </ul>
+      </section>
+      
+    </main>
+    <footer>
+      <p>&copy; 2023 Publicação de Livros</p>
+    </footer>
+  </body>
+</html>
